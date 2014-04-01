@@ -60,6 +60,10 @@
     <Compile Include="Migrations\201404011503132_AddUser.Designer.cs">
       <DependentUpon>201404011503132_AddUser.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201404011517578_UpdateUserName.cs" />
+    <Compile Include="Migrations\201404011517578_UpdateUserName.Designer.cs">
+      <DependentUpon>201404011517578_UpdateUserName.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -77,6 +81,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201404011503132_AddUser.resx">
       <DependentUpon>201404011503132_AddUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201404011517578_UpdateUserName.resx">
+      <DependentUpon>201404011517578_UpdateUserName.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
